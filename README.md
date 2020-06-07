@@ -1,4 +1,4 @@
-###Highstocks Graphs
+#Highstocks Graphs
 
 
 ```bash
