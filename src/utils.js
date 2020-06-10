@@ -16,6 +16,7 @@ export default (stocksData) => {
     .map((v) => parseInt(v["5. volume"]))
     .reverse();
   const newArray = makeArray(series, volumes);
+
   const options = {
     credits: {
       enabled: false,
@@ -29,6 +30,15 @@ export default (stocksData) => {
         data: newArray,
       },
     ],
+    responsive: {
+      rules: [
+        {
+          condition: {
+            maxWidth: 800,
+          },
+        },
+      ],
+    },
   };
   return options;
 };

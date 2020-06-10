@@ -25,13 +25,13 @@
 }
 
 .header-input {
-  width: 40rem;
+  width: 28rem;
   height: 2rem;
   border: 0px none;
 }
 
 .submit-button {
-  max-width: 10vw;
+  max-width: 8vw;
   margin: 0.2rem auto;
   font-weight: 700;
   cursor: pointer;
@@ -43,5 +43,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 50vh;
 }
